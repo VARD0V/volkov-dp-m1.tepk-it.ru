@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "*название*";
+    src: url("../fonts/*название*") format("truetype");
+}
+* {
+    font-family: "*название*", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.border{
+    border: 2px solid black;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: *цвет*;
+    border: *цвет* solid 1px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+.nav{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+.external{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+}
+.internal{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.internal-in{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.internal-in-h{
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
