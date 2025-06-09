@@ -39,6 +39,11 @@ header{
     width: fit-content;
     border-radius: 5px;
     font-size: 16px;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: white;
+    color: #1D476B ;
 }
 .nav{
     display: flex;
@@ -123,4 +128,12 @@ label{
 }
 .table-show-1{
     width: 60%;
+}
+.show{
+    color: #1D476B;
+    font-size: 17px;
+    transition: 0.3s;
+}
+.show:hover{
+    color: black;
 }
