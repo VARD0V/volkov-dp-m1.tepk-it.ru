@@ -14,7 +14,7 @@
                     </a>
                     <div>Минимальное количество на складе: {{ $material->minimum}}</div>
                     <div>Количество на складе: {{ $material->warehouse}}</div>
-                    <div>Цена: {{$material->price}} {{$material->unit->name}} | {{$material->packaging}}</div>
+                    <div>Цена: {{$material->price}} {{$material->unit->name}} | {{$material->packaging}} шт.</div>
                 </div>
                 <div>
                     <h2>{{ number_format($material->quantity, 2, '.', ' ') }}</h2>
