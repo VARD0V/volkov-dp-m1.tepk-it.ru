@@ -20,7 +20,6 @@
                     <h2>{{ number_format($material->quantity, 2, '.', ' ') }}</h2>
                 </div>
             </div>
-            <a class="btn" href="{{ route('materials.show', $material->id) }}">*Ссылка на список продукции, в производстве которой используется материал*</a>
         @endforeach
     </div>
 @endsection

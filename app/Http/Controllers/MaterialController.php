@@ -42,7 +42,7 @@ class MaterialController extends Controller
     {
         // Обновляем данные партнера
         $material->update($request->validated());
-        return redirect()->route('materials.index');
+        return redirect()->route('materials.edit', $material->id);
     }
     public function show($id){
         // Получаем все материалы с продукцией, в которой участвует материал

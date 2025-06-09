@@ -3,7 +3,9 @@
 @section('content')
     <div class="head-h">
         <h2>Редактирование материала: {{$material->name}}</h2>
+        <a class="btn" href="{{ route('materials.show', $material->id) }}">*Ссылка на список продукции, в производстве которой используется материал*</a>
     </div>
+
     <form action="{{ route('materials.update', $material->id)}}" method="post" enctype="application/x-www-form-urlencoded">
         @csrf
         @method('PUT')

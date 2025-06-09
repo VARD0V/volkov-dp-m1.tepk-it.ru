@@ -28,6 +28,6 @@
         @endforeach
     </div>
     <div class="back">
-        <a class="btn" href="{{ route('materials.index') }}"><-- Назад к списку</a>
+        <a class="btn" href="{{ route('materials.edit', $material->id) }}"><-- Назад к редактированию *материала*</a>
     </div>
 @endsection
